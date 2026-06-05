@@ -11,9 +11,15 @@ app.use(express.json());
 app.get('/api', (req, res) => {
   res.json({ message: 'Task Manager API is running and working fine!' });
 });
+app.get('/', (req, res) => {
+  res.json({ message: 'Task Manager API is running and working fine!' });
+});
 
 app.use('/api/auth', authRoutes);
+app.use('/auth', authRoutes);
+
 app.use('/api/tasks', taskRoutes);
+app.use('/tasks', taskRoutes);
 
 app.use((req, res) => {
   res.status(404).json({ message: 'API route not found' });
