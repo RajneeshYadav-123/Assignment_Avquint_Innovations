@@ -1,6 +1,8 @@
-const dns = require('dns');
-dns.setServers(['8.8.8.8', '1.1.1.1']);
-dns.setDefaultResultOrder('ipv4first');
+if (!process.env.VERCEL) {
+  const dns = require('dns');
+  dns.setServers(['8.8.8.8', '1.1.1.1']);
+  dns.setDefaultResultOrder('ipv4first');
+}
 
 require('dotenv').config();
 const app = require('./app');
