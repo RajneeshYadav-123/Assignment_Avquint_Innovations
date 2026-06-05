@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Setup MERN Project Structure",
+    "description": "Initialize Vite React app on the frontend and Express.js on the backend. Connect backend to MongoDB.",
+    "status": "Completed"
+  },
+  {
+    "title": "Configure JWT Authentication Flow",
+    "description": "Add registration and login routes with password hashing. Store token in localStorage and protect routes.",
+    "status": "Completed"
+  },
+  {
+    "title": "Design Dashboard Interface",
+    "description": "Implement task counter, completed percentage, search bar, filters and paginated task grid list using clean CSS.",
+    "status": "Completed"
+  },
+  {
+    "title": "Write Lab/Assignment Report",
+    "description": "Prepare a 4-page report documenting the system design, screenshots, and setup steps for the internship evaluation.",
+    "status": "Pending"
+  },
+  {
+    "title": "Prepare Demo Video for Evaluators",
+    "description": "Record a 3-minute video showing user registration, login, creating a task, updating status, searching, and deleting a task.",
+    "status": "Pending"
+  },
+  {
+    "title": "Push Code to GitHub Repository",
+    "description": "Create a README file, push frontend and backend folders to git, and submit the link on the college portal.",
+    "status": "Pending"
+  }
+]
